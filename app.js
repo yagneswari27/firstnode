@@ -14,3 +14,6 @@ const calculator=require('./calculate');
 const {add1,sub}=calculator;
 console.log(add1(2,3));
 console.log(sub(9,2));
+const path = require("path");
+const filepath = path.join("users", "root", "note.txt");
+console.log(filepath);
